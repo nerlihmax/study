@@ -4,10 +4,10 @@ CFLAGS=-Wall
 all: run
 
 main: clean
-	$(CC) $(CFLAGS) main.c -o main
+	$(CC) $(CFLAGS) main.c -o main.o
 
 clean:
-	rm main
+	rm main.o
 
 run: main
 	./main
