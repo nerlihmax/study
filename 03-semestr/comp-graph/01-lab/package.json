@@ -1,0 +1,14 @@
+{
+  "name": "01-lab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "http-server -p 3000 -c-1 ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^13.0.2",
+    "typescript": "^4.4.4"
+  }
+}

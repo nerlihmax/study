@@ -13,7 +13,11 @@ void appendFile(string filename, string symbol) {
 
   string outFilename = filename;
   int dot = filename.find('.');
-  outFilename.replace(outFilename.begin() + dot, outFilename.end(), ".out");
+  outFilename.replace(
+    outFilename.begin() + dot,
+    outFilename.end(),
+    ".out"
+  );
 
   ofstream output(outFilename, ios::app);
 
