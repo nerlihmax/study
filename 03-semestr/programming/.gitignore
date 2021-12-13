@@ -1,3 +1,4 @@
 *lab/**/main
 *lab/**/*.dylib
 *lab/**/*.out
+*lab/**/build
